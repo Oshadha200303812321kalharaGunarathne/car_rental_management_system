@@ -1,5 +1,6 @@
 package edu.icet.model.dto;
 
+import edu.icet.model.entity.VehicleEntity;
 import lombok.*;
 
 @Getter
@@ -7,7 +8,7 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-public class Vehicle {
+public class Vehicle extends VehicleEntity {
     private String vehicleID;
     private String registrationNo;
     private String type;
